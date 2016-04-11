@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>P2P Chat Program</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section id="contacts">
+        <h1>Contacts</h1>
+        <ul id="userList"></ul>
+    </section>
+    <section id="videos">
+        <video id="localVideo" autoplay></video>
+        <video id="remoteVideo" class="hidden" autoplay></video>
+    </section>
+    <section id="chat" class="hidden">
+        <section id="commentView">
+            <h1>Chat</h1>
+            <ul id="comments"></ul>
+        </section>
+        <section id="inputForm">
+            <input type="text" id="chatInput">
+            <input type="submit" id="chatSubmit" value="send">
+        </section>
+    </section>
+</body>
+</html>
